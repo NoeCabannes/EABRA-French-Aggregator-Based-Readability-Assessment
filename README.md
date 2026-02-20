@@ -1,6 +1,6 @@
 # EABRA: English Aggregator-Based Readability Assessment
 
-Heavely inspired by FABRA (2022, UCLouvin), EABRA is a Python toolkit designed to evaluate the readability of English texts. It is the English counterpart to the French FABRA toolkit. It automatically extracts a wide array of language features (Length, Lexical, Syntactic, and Discourse) from your text and calculates 18 statistical aggregators for each feature, providing an extremely detailed linguistic profile of the input.
+EABRA is a Python toolkit designed to evaluate the readability of English texts. It is the English counterpart to the French FABRA toolkit. It automatically extracts a wide array of language features (Length, Lexical, Syntactic, and Discourse) from your text and calculates 18 statistical aggregators for each feature, providing an extremely detailed linguistic profile of the input. It resues the language variables and aggregators from FABRA.
 
 ## Features Extracted
 
@@ -95,3 +95,7 @@ print("Lexical Diversity (TTR):", features['LEXdvrWLT'])
 
 - **ModuleNotFoundError: No module named 'pkg_resources'**: This occurs in newer Python versions with certain libraries like `lexical-diversity`. Ensure you have installed `setuptools<70.0.0` as specified in the installation steps.
 - **spaCy Build Errors**: If `pip install spacy` fails during the "Building wheels" step, ensure you are not using an unsupported or overly-new version of Python (like 3.14). Downgrading to Python 3.13 or 3.12 will fix this.
+
+## Language variables / aggregators description
+
+We kept the same names from FABRA. FABRA documentation is available here. https://cental.uclouvain.be/fabra/docs.html (webpage archive in PDF format can be found in the repository)
