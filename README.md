@@ -1,6 +1,6 @@
 # EABRA: English Aggregator-Based Readability Assessment
 
-EABRA is a Python toolkit designed to evaluate the readability of English texts. It is the English counterpart to the French FABRA toolkit. It automatically extracts a wide array of language features (Length, Lexical, Syntactic, and Discourse) from your text and calculates 18 statistical aggregators for each feature, providing an extremely detailed linguistic profile of the input.
+Heavely inspired by FABRA, EABRA is a Python toolkit designed to evaluate the readability of English texts. It is the English counterpart to the French FABRA toolkit. It automatically extracts a wide array of language features (Length, Lexical, Syntactic, and Discourse) from your text and calculates 18 statistical aggregators for each feature, providing an extremely detailed linguistic profile of the input.
 
 ## Features Extracted
 
